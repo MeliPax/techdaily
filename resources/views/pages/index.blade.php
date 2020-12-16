@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="jumbotron text-center">
-    <h1>Welcome to TechDaily online</h1>
+    <h1>Welcome to TechDaily</h1>
     <p>Making learning and sharing easy for the Tech community</p>
 
     <br><br>
