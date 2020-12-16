@@ -1,0 +1,16 @@
+a {
+    color: #9797af;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+    -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+    color: #fcfcfd;
+    text-decoration: none;
+}
+
+.container {
+    /* margin-top: 50px; */
+}
