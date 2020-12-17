@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+// use Illuminate\Support\Carbon;
 
 class PostsTableSeeder extends Seeder
 {
@@ -56,7 +57,7 @@ class PostsTableSeeder extends Seeder
                 But consistency is key. You’ll learn much more by coding for an hour every day, rather than spending seven hours coding on a Saturday.
                 
                 Humans are creatures of habit, so make coding part of your daily routine. Make time and keep going.',
-                'created_at' => Carbon\Carbon::now(),
+                // 'created_at' => Carbon::now(),
                 'updated_at' => '',
                 'user_id' => '0',
                 'cover_image' => 'no image',

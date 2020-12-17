@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+// use Illuminate\Support\Carbon;
 
 class UsersTableSeeder extends Seeder
 {
@@ -16,10 +17,10 @@ class UsersTableSeeder extends Seeder
             [
                 'name' => 'Admin',
                 'email' => 'admin@mail.com',
-                'email_verified_at' => Carbon\Carbon::now(),
+                // 'email_verified_at' => Carbon::now(),
                 'password' => '1234',
                 'remember_token' => '',
-                'created_at' => Carbon\Carbon::now(),
+                // 'created_at' => Carbon::now(),
                 'updated_at' => '',
                 'role' => '1',
                 'status' => '1',
