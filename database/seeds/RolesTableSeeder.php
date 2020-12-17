@@ -12,7 +12,7 @@ class RolesTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('roles')->DB::insert(
+        DB::table('roles')->insert(
             [
                 'created_at' => Carbon\Carbon::now(),
                 'updated_at' => '',
