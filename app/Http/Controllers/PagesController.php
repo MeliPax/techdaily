@@ -12,7 +12,9 @@ class PagesController extends Controller
 {
     public function index()
     {
+
         $posts = Post::orderBy('updated_at', 'desc')->paginate(5);
+
         // // return view('pages.index')->with('posts', $posts);
         // return View('pages.index')->with('posts', $posts);
         // $title = 'Welcome to Laravel!';

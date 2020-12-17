@@ -59,7 +59,7 @@ class PostsTableSeeder extends Seeder
                 Humans are creatures of habit, so make coding part of your daily routine. Make time and keep going.',
                 // 'created_at' => Carbon::now(),
                 // 'updated_at' => '',
-                'user_id' => '0',
+                'user_id' => '1',
                 'cover_image' => 'no image',
             ]
         );
