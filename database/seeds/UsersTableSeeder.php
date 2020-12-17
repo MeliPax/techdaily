@@ -22,7 +22,7 @@ class UsersTableSeeder extends Seeder
                 'created_at' => Carbon\Carbon::now(),
                 'updated_at' => '',
                 'role' => '1',
-                'status' => '1'
+                'status' => '1',
             ]
         );
     }

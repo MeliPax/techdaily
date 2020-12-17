@@ -16,22 +16,22 @@ class RolesTableSeeder extends Seeder
             [
                 'created_at' => Carbon\Carbon::now(),
                 'updated_at' => '',
-                'role' => 'Admin'
+                'role' => 'Admin',
             ],
             [
                 'created_at' => Carbon\Carbon::now(),
                 'updated_at' => '',
-                'role' => 'Editor'
+                'role' => 'Editor',
             ],
             [
                 'created_at' => Carbon\Carbon::now(),
                 'updated_at' => '',
-                'role' => 'Member'
+                'role' => 'Member',
             ],
             [
                 'created_at' => Carbon\Carbon::now(),
                 'updated_at' => '',
-                'role' => 'Developer'
+                'role' => 'Developer',
             ]
         );
     }
