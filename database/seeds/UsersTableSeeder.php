@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-// use Illuminate\Support\Carbon;
+use Illuminate\Support\Facades\Hash;
 
 class UsersTableSeeder extends Seeder
 {
@@ -18,7 +18,7 @@ class UsersTableSeeder extends Seeder
                 'name' => 'Admin',
                 'email' => 'admin@mail.com',
                 // 'email_verified_at' => Carbon::now(),
-                'password' => '1234',
+                'password' => Hash::make('1234'),
                 'remember_token' => '',
                 // 'created_at' => Carbon::now(),
                 // 'updated_at' => '',
