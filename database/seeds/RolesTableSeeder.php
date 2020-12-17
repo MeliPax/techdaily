@@ -16,22 +16,22 @@ class RolesTableSeeder extends Seeder
         DB::table('roles')->insert(
             [
                 // 'created_at' => '',
-                'updated_at' => '',
+                // 'updated_at' => '',
                 'role' => 'Admin',
             ],
             [
                 // 'created_at' => '',
-                'updated_at' => '',
+                // 'updated_at' => '',
                 'role' => 'Editor',
             ],
             [
                 // 'created_at' => '',
-                'updated_at' => '',
+                // 'updated_at' => '',
                 'role' => 'Member',
             ],
             [
                 // 'created_at' => ,
-                'updated_at' => '',
+                // 'updated_at' => '',
                 'role' => 'Developer',
             ]
         );

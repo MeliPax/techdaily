@@ -21,7 +21,7 @@ class UsersTableSeeder extends Seeder
                 'password' => '1234',
                 'remember_token' => '',
                 // 'created_at' => Carbon::now(),
-                'updated_at' => '',
+                // 'updated_at' => '',
                 'role' => '1',
                 'status' => '1',
             ]
