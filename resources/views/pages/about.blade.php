@@ -2,5 +2,5 @@
 
 @section('content')
     <h1>About</h1>
-    <p>This is the about page</p>
+    <p>Techdaily is A free blog app for tech trends and contents.</p>
 @endsection
