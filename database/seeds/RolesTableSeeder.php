@@ -17,22 +17,22 @@ class RolesTableSeeder extends Seeder
             [
                 // 'created_at' => '',
                 // 'updated_at' => '',
-                'role' => 'Admin',
+                'role' => 'admin',
             ],
             [
                 // 'created_at' => '',
                 // 'updated_at' => '',
-                'role' => 'Editor',
+                'role' => 'editor',
             ],
             [
                 // 'created_at' => '',
                 // 'updated_at' => '',
-                'role' => 'Member',
+                'role' => 'member',
             ],
             [
                 // 'created_at' => ,
                 // 'updated_at' => '',
-                'role' => 'Developer',
+                'role' => 'developer',
             ].
             ,
             [
