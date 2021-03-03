@@ -29,6 +29,27 @@ class UsersTableSeeder extends Seeder
                 'remember_token' => '',
                 'role' => '3',
                 'status' => '1',
+            ],[
+                'name' => 'user2',
+                'email' => 'user2@mail.com',
+                'password' => Hash::make('1234'),
+                'remember_token' => '',
+                'role' => '3',
+                'status' => '1',
+            ],[
+                'name' => 'user3',
+                'email' => 'user3@mail.com',
+                'password' => Hash::make('1234'),
+                'remember_token' => '',
+                'role' => '3',
+                'status' => '1',
+            ],[
+                'name' => 'user4',
+                'email' => 'user4@mail.com',
+                'password' => Hash::make('1234'),
+                'remember_token' => '',
+                'role' => '3',
+                'status' => '1',
             ]
         );
     }
