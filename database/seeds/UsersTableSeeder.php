@@ -17,12 +17,17 @@ class UsersTableSeeder extends Seeder
             [
                 'name' => 'Admin',
                 'email' => 'admin@mail.com',
-                // 'email_verified_at' => Carbon::now(),
                 'password' => Hash::make('1234'),
                 'remember_token' => '',
-                // 'created_at' => Carbon::now(),
-                // 'updated_at' => '',
                 'role' => '1',
+                'status' => '1',
+            ],
+            [
+                'name' => 'user1',
+                'email' => 'user1@mail.com',
+                'password' => Hash::make('1234'),
+                'remember_token' => '',
+                'role' => '3',
                 'status' => '1',
             ]
         );
