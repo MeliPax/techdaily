@@ -33,7 +33,7 @@ class RolesTableSeeder extends Seeder
                 // 'created_at' => ,
                 // 'updated_at' => '',
                 'role' => 'developer',
-            ].
+            ]
             ,
             [
 //                 'created_at' => Carbon\Carbon::now(),
